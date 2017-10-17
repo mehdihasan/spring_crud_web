@@ -1,4 +1,4 @@
-package io.cefalo.springbootstarter.topic;
+package io.cefalo.topic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

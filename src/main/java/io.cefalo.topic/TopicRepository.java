@@ -1,4 +1,4 @@
-package io.cefalo.springbootstarter.topic;
+package io.cefalo.topic;
 
 import org.springframework.data.repository.CrudRepository;
 

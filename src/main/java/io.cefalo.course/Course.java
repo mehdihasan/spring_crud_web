@@ -1,23 +1,29 @@
-package io.cefalo.springbootstarter.topic;
+package io.cefalo.course;
+
+
+import io.cefalo.topic.Topic;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Topic {
+public class Course {
 
     @Id
     private String id;
+
     private String name, description;
 
-    public Topic(String id, String name, String description) {
+    private Topic topic;
+
+    public Course(String id, String name, String description) {
         super();
         this.id = id;
         this.name = name;
         this.description = description;
     }
 
-    public Topic() {
+    public Course() {
     }
 
     public String getId() {
